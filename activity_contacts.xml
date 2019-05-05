@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="Contacts"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:background="#a1c8ef"
+    tools:context=".Contacts">
+
+    <TextView
+        android:id="@+id/Contacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="people"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <Button
+        android:id="@+id/AlexWang"
+        android:layout_width="177dp"
+        android:layout_height="183dp"
+        android:background="@drawable/alex"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="142dp" />
+
+    <Button
+        android:id="@+id/LauraPopa"
+        android:layout_width="177dp"
+        android:layout_height="183dp"
+        android:background="@drawable/laura"
+        tools:layout_editor_absoluteX="218dp"
+        tools:layout_editor_absoluteY="142dp" />
+
+    <Button
+        android:id="@+id/NicholasM"
+        android:layout_width="177dp"
+        android:layout_height="183dp"
+        android:background="@drawable/nika"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="335dp" />
+
+    <Button
+        android:id="@+id/SelenaN"
+        android:layout_width="177dp"
+        android:layout_height="183dp"
+        android:background="@drawable/selena"
+        tools:layout_editor_absoluteX="218dp"
+        tools:layout_editor_absoluteY="335dp" />
+</android.support.constraint.ConstraintLayout>

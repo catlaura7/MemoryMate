@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="Journal"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:background="#f08f8f"
+    tools:context=".Journal">
+
+    <TextView
+        android:id="@+id/Journal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Journal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/add"
+        tools:layout_editor_absoluteX="286dp"
+        tools:layout_editor_absoluteY="97dp" />
+
+    <Button
+        android:id="@+id/date1"
+        android:layout_width="355dp"
+        android:layout_height="47dp"
+        android:background="@drawable/date1"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="186dp" />
+
+    <Button
+        android:id="@+id/date2"
+        android:layout_width="355dp"
+        android:layout_height="47dp"
+        android:background="@drawable/date2"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="266dp" />
+
+    <Button
+        android:id="@+id/date3"
+        android:layout_width="355dp"
+        android:layout_height="47dp"
+        android:background="@drawable/date3"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="342dp" />
+
+    <Button
+        android:id="@+id/date4"
+        android:layout_width="355dp"
+        android:layout_height="47dp"
+        android:background="@drawable/date4"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="419dp" />
+
+    <Button
+        android:id="@+id/date5"
+        android:layout_width="355dp"
+        android:layout_height="47dp"
+        android:background="@drawable/date5"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="497dp" />
+</android.support.constraint.ConstraintLayout>
